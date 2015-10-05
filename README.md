@@ -1,5 +1,7 @@
 # logback-servlet
 
+[![Build Status](https://travis-ci.org/tomsquest/logback-servlet.svg)](https://travis-ci.org/tomsquest/logback-servlet)
+
 Servlet for Logback to configure log levels at runtime.
 
 ## Features
