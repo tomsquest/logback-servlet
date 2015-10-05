@@ -1,4 +1,4 @@
-package ch.qos.logback.servlet;
+package com.tomsquest.logback;
 
 import ch.qos.logback.classic.Level;
 import ch.qos.logback.classic.Logger;
