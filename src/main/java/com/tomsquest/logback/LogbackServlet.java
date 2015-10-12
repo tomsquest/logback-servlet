@@ -39,6 +39,8 @@ public class LogbackServlet extends HttpServlet {
     }
 
     private void printLoggers(HttpServletResponse resp) throws IOException {
+        resp.setContentType("text/html");
+
         LoggerContext context = (LoggerContext) LoggerFactory.getILoggerFactory();
         List<Logger> loggers = context.getLoggerList();
 
